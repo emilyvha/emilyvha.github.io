@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+/*****************************
+            TAGS
+******************************/
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #7279ca;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    line-height: 1.4;
+}
+
+
+
+.container{
+    padding: 0 1.2rem
+}
+
+header{
+    min-height: 100vh;
+}
+
+.navbar{
+    background: #a9ade2;
+    padding: 1.2rem;
+}
+
+.navbar-brand{
+    color: #5e64a6;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.navbar-nav a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #5c62a2;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-nav{
+    text-align: right;
+    font-size: small;
+}
+
+.navbar-nav a:hover{
+    opacity: 0.7;
+}
+
+.banner{
+    flex: 1;
+    display: flex;
+    align-items: ;
+    text-align: center;
+    color: #5c62a2;
+}
+
+.banner-title{
+    font-size: 3rem;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.header1{
+    text-align: left;
+    text-decoration: none;
+    margin: ;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.row{
+    
+display: flex;
+
+}
+
+.article-name{
+    font-size: small;
+    text-align: left;
+    padding-left: 2.2cm;
+}
+
+.type1{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.about-header {
+    text-align: center;
+    color: #5c62a2;
+    text-transform: uppercase;
+}
+
+.about-para {
+    text-align: left;
+    color: #5e64a6;
+    font-weight: 600;
+    max-width: 10cm;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    padding-left: 8cm;
+    
+}
+
+.text-col {
+    padding-left: 1cm
+    
+}
+
+.blog-header {
+    text-transform: uppercase;
+    text-align: center;
+    color: #5c62a2
+    
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.p2 {
+    padding-left: 5cm;
+}
+
+.p1 {
+    margin-left: 12cm;
+}
+
+.ba-header {
+    color: #5e64a6;
+    background-color: #cfd8f9;
+}
+
+
+.container5 {
+margin-left: 2cm;
+margin-right: 2cm;
+background-color: #cfd8f9;
+
+}
+
+
+.contact-header {
+    text-transform: uppercase;
+    text-align: center;
+    color: #5c62a2;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
